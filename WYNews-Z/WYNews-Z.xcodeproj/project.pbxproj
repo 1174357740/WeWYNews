@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF331161CC4FDEB00AA2AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF331151CC4FDEB00AA2AF2 /* main.m */; };
+		1BF331191CC4FDEB00AA2AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF331181CC4FDEB00AA2AF2 /* AppDelegate.m */; };
+		1BF3311C1CC4FDEB00AA2AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3311B1CC4FDEB00AA2AF2 /* ViewController.m */; };
+		1BF3311F1CC4FDEB00AA2AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF3311D1CC4FDEB00AA2AF2 /* Main.storyboard */; };
+		1BF331211CC4FDEB00AA2AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF331201CC4FDEB00AA2AF2 /* Assets.xcassets */; };
+		1BF331241CC4FDEB00AA2AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF331221CC4FDEB00AA2AF2 /* LaunchScreen.storyboard */; };
+		1BF3312F1CC4FDEB00AA2AF2 /* WYNews_ZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3312E1CC4FDEB00AA2AF2 /* WYNews_ZTests.m */; };
+		1BF3313A1CC4FDEB00AA2AF2 /* WYNews_ZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF331391CC4FDEB00AA2AF2 /* WYNews_ZUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BF3312B1CC4FDEB00AA2AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF331091CC4FDEB00AA2AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF331101CC4FDEB00AA2AF2;
+			remoteInfo = "WYNews-Z";
+		};
+		1BF331361CC4FDEB00AA2AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF331091CC4FDEB00AA2AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF331101CC4FDEB00AA2AF2;
+			remoteInfo = "WYNews-Z";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF331111CC4FDEB00AA2AF2 /* WYNews-Z.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WYNews-Z.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF331151CC4FDEB00AA2AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BF331171CC4FDEB00AA2AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BF331181CC4FDEB00AA2AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BF3311A1CC4FDEB00AA2AF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BF3311B1CC4FDEB00AA2AF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BF3311E1CC4FDEB00AA2AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF331201CC4FDEB00AA2AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF331231CC4FDEB00AA2AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BF331251CC4FDEB00AA2AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF3312A1CC4FDEB00AA2AF2 /* WYNews-ZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WYNews-ZTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF3312E1CC4FDEB00AA2AF2 /* WYNews_ZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNews_ZTests.m; sourceTree = "<group>"; };
+		1BF331301CC4FDEB00AA2AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF331351CC4FDEB00AA2AF2 /* WYNews-ZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WYNews-ZUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF331391CC4FDEB00AA2AF2 /* WYNews_ZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNews_ZUITests.m; sourceTree = "<group>"; };
+		1BF3313B1CC4FDEB00AA2AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF3310E1CC4FDEB00AA2AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF331271CC4FDEB00AA2AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF331321CC4FDEB00AA2AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF331081CC4FDEB00AA2AF2 = {
+			isa = PBXGroup;
+			children = (
+				1BF331131CC4FDEB00AA2AF2 /* WYNews-Z */,
+				1BF3312D1CC4FDEB00AA2AF2 /* WYNews-ZTests */,
+				1BF331381CC4FDEB00AA2AF2 /* WYNews-ZUITests */,
+				1BF331121CC4FDEB00AA2AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BF331121CC4FDEB00AA2AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF331111CC4FDEB00AA2AF2 /* WYNews-Z.app */,
+				1BF3312A1CC4FDEB00AA2AF2 /* WYNews-ZTests.xctest */,
+				1BF331351CC4FDEB00AA2AF2 /* WYNews-ZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF331131CC4FDEB00AA2AF2 /* WYNews-Z */ = {
+			isa = PBXGroup;
+			children = (
+				1BF331171CC4FDEB00AA2AF2 /* AppDelegate.h */,
+				1BF331181CC4FDEB00AA2AF2 /* AppDelegate.m */,
+				1BF3311A1CC4FDEB00AA2AF2 /* ViewController.h */,
+				1BF3311B1CC4FDEB00AA2AF2 /* ViewController.m */,
+				1BF3311D1CC4FDEB00AA2AF2 /* Main.storyboard */,
+				1BF331201CC4FDEB00AA2AF2 /* Assets.xcassets */,
+				1BF331221CC4FDEB00AA2AF2 /* LaunchScreen.storyboard */,
+				1BF331251CC4FDEB00AA2AF2 /* Info.plist */,
+				1BF331141CC4FDEB00AA2AF2 /* Supporting Files */,
+			);
+			path = "WYNews-Z";
+			sourceTree = "<group>";
+		};
+		1BF331141CC4FDEB00AA2AF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BF331151CC4FDEB00AA2AF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BF3312D1CC4FDEB00AA2AF2 /* WYNews-ZTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3312E1CC4FDEB00AA2AF2 /* WYNews_ZTests.m */,
+				1BF331301CC4FDEB00AA2AF2 /* Info.plist */,
+			);
+			path = "WYNews-ZTests";
+			sourceTree = "<group>";
+		};
+		1BF331381CC4FDEB00AA2AF2 /* WYNews-ZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF331391CC4FDEB00AA2AF2 /* WYNews_ZUITests.m */,
+				1BF3313B1CC4FDEB00AA2AF2 /* Info.plist */,
+			);
+			path = "WYNews-ZUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BF331101CC4FDEB00AA2AF2 /* WYNews-Z */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF3313E1CC4FDEB00AA2AF2 /* Build configuration list for PBXNativeTarget "WYNews-Z" */;
+			buildPhases = (
+				1BF3310D1CC4FDEB00AA2AF2 /* Sources */,
+				1BF3310E1CC4FDEB00AA2AF2 /* Frameworks */,
+				1BF3310F1CC4FDEB00AA2AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WYNews-Z";
+			productName = "WYNews-Z";
+			productReference = 1BF331111CC4FDEB00AA2AF2 /* WYNews-Z.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BF331291CC4FDEB00AA2AF2 /* WYNews-ZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF331411CC4FDEB00AA2AF2 /* Build configuration list for PBXNativeTarget "WYNews-ZTests" */;
+			buildPhases = (
+				1BF331261CC4FDEB00AA2AF2 /* Sources */,
+				1BF331271CC4FDEB00AA2AF2 /* Frameworks */,
+				1BF331281CC4FDEB00AA2AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF3312C1CC4FDEB00AA2AF2 /* PBXTargetDependency */,
+			);
+			name = "WYNews-ZTests";
+			productName = "WYNews-ZTests";
+			productReference = 1BF3312A1CC4FDEB00AA2AF2 /* WYNews-ZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BF331341CC4FDEB00AA2AF2 /* WYNews-ZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF331441CC4FDEB00AA2AF2 /* Build configuration list for PBXNativeTarget "WYNews-ZUITests" */;
+			buildPhases = (
+				1BF331311CC4FDEB00AA2AF2 /* Sources */,
+				1BF331321CC4FDEB00AA2AF2 /* Frameworks */,
+				1BF331331CC4FDEB00AA2AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF331371CC4FDEB00AA2AF2 /* PBXTargetDependency */,
+			);
+			name = "WYNews-ZUITests";
+			productName = "WYNews-ZUITests";
+			productReference = 1BF331351CC4FDEB00AA2AF2 /* WYNews-ZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BF331091CC4FDEB00AA2AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaochen;
+				TargetAttributes = {
+					1BF331101CC4FDEB00AA2AF2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1BF331291CC4FDEB00AA2AF2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1BF331101CC4FDEB00AA2AF2;
+					};
+					1BF331341CC4FDEB00AA2AF2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1BF331101CC4FDEB00AA2AF2;
+					};
+				};
+			};
+			buildConfigurationList = 1BF3310C1CC4FDEB00AA2AF2 /* Build configuration list for PBXProject "WYNews-Z" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BF331081CC4FDEB00AA2AF2;
+			productRefGroup = 1BF331121CC4FDEB00AA2AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF331101CC4FDEB00AA2AF2 /* WYNews-Z */,
+				1BF331291CC4FDEB00AA2AF2 /* WYNews-ZTests */,
+				1BF331341CC4FDEB00AA2AF2 /* WYNews-ZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BF3310F1CC4FDEB00AA2AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF331241CC4FDEB00AA2AF2 /* LaunchScreen.storyboard in Resources */,
+				1BF331211CC4FDEB00AA2AF2 /* Assets.xcassets in Resources */,
+				1BF3311F1CC4FDEB00AA2AF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF331281CC4FDEB00AA2AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF331331CC4FDEB00AA2AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF3310D1CC4FDEB00AA2AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF3311C1CC4FDEB00AA2AF2 /* ViewController.m in Sources */,
+				1BF331191CC4FDEB00AA2AF2 /* AppDelegate.m in Sources */,
+				1BF331161CC4FDEB00AA2AF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF331261CC4FDEB00AA2AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF3312F1CC4FDEB00AA2AF2 /* WYNews_ZTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF331311CC4FDEB00AA2AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF3313A1CC4FDEB00AA2AF2 /* WYNews_ZUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF3312C1CC4FDEB00AA2AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF331101CC4FDEB00AA2AF2 /* WYNews-Z */;
+			targetProxy = 1BF3312B1CC4FDEB00AA2AF2 /* PBXContainerItemProxy */;
+		};
+		1BF331371CC4FDEB00AA2AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF331101CC4FDEB00AA2AF2 /* WYNews-Z */;
+			targetProxy = 1BF331361CC4FDEB00AA2AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BF3311D1CC4FDEB00AA2AF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF3311E1CC4FDEB00AA2AF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BF331221CC4FDEB00AA2AF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF331231CC4FDEB00AA2AF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BF3313C1CC4FDEB00AA2AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BF3313D1CC4FDEB00AA2AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF3313F1CC4FDEB00AA2AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WYNews-Z/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.WYNews-Z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BF331401CC4FDEB00AA2AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WYNews-Z/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.WYNews-Z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BF331421CC4FDEB00AA2AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WYNews-ZTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.WYNews-ZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNews-Z.app/WYNews-Z";
+			};
+			name = Debug;
+		};
+		1BF331431CC4FDEB00AA2AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WYNews-ZTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.WYNews-ZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNews-Z.app/WYNews-Z";
+			};
+			name = Release;
+		};
+		1BF331451CC4FDEB00AA2AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WYNews-ZUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.WYNews-ZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WYNews-Z";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1BF331461CC4FDEB00AA2AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WYNews-ZUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.WYNews-ZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WYNews-Z";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF3310C1CC4FDEB00AA2AF2 /* Build configuration list for PBXProject "WYNews-Z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF3313C1CC4FDEB00AA2AF2 /* Debug */,
+				1BF3313D1CC4FDEB00AA2AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF3313E1CC4FDEB00AA2AF2 /* Build configuration list for PBXNativeTarget "WYNews-Z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF3313F1CC4FDEB00AA2AF2 /* Debug */,
+				1BF331401CC4FDEB00AA2AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BF331411CC4FDEB00AA2AF2 /* Build configuration list for PBXNativeTarget "WYNews-ZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF331421CC4FDEB00AA2AF2 /* Debug */,
+				1BF331431CC4FDEB00AA2AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BF331441CC4FDEB00AA2AF2 /* Build configuration list for PBXNativeTarget "WYNews-ZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF331451CC4FDEB00AA2AF2 /* Debug */,
+				1BF331461CC4FDEB00AA2AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BF331091CC4FDEB00AA2AF2 /* Project object */;
+}
